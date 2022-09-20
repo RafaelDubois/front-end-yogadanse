@@ -1,0 +1,70 @@
+*{margin:0; padding:0;}
+
+
+.body {
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+    /* The image used */
+    background-image: url("assets/parralax.png");
+
+    /* Set a specific height */
+    min-height: 820px; 
+  
+    /* Create the parallax scrolling effect */
+ 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parralax{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+      /* The image used */
+      background-image: url("assets/parralax2.png");
+
+      /* Set a specific height */
+      min-height: 800px; 
+    
+      /* Create the parallax scrolling effect */
+   
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      font-style: italic;
+
+}
+
+.link {
+  text-decoration:none;
+  color: black;
+  font-size: 23px;
+  font-weight: 800;
+  margin-left: auto;
+  margin-right: auto;
+  letter-spacing: 3px;
+  font-family: 'Mythical Prince', sans-serif;
+  margin-top:20px;
+
+                                                
+  
+}
+
+.link:hover {
+
+  color:#F8F9E9;
+} 
+
+
+.linear-gradient {
+  background: rgb(215,200,216);
+background: linear-gradient(0deg, rgba(215,200,216,0.9260884773831408) 0%, rgba(255,125,13,1) 35%, rgba(255,20,91,0.6851921188397234) 100%);
+}
+

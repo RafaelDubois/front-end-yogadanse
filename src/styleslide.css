@@ -1,0 +1,45 @@
+.slide-sara{
+    width: 87vmin;
+      position: relative;
+      overflow: hidden;
+      border: 12px solid #967F8A;
+      border-radius: 18px;
+      box-shadow: 10px 25px 30px rgba(0,0,0,0.3);
+      opacity:1;
+      margin-right: 30px;
+  }
+
+  @keyframes slide-sara {
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+  }
+.wrapper-sara {
+    width: 100%;
+    display:flex;
+    animation-name: slide-sara ;
+    animation-duration: 10s;
+   animation-iteration-count: infinite;
+   
+ }
