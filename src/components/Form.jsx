@@ -73,7 +73,7 @@ const formSubmit = async (e) => {
   };
 
   try {
-    await axios.post("https://back-end-yogadanse.cyclic.app", userData);
+    await axios.post("https://back-end-yogadanse.cyclic.app/contact", userData);
     setState({ sent: true }, 
     resetForm());
     console.log(userData)
