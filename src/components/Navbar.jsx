@@ -13,6 +13,7 @@ import Container from "@suid/material/Container";
 import pngShiva from "../assets/pngshiva.png";
 import silhouette from "../assets/silhouette.png";
 import Link from "@suid/material/Link";
+import "../style.css"
 
 function Navbar () {
   const goToTop = () => {
@@ -56,6 +57,7 @@ function Navbar () {
               noWrap
               component="a"
               href="/"
+              class="font-test"
               sx={{
                 display: "block",
                 fontFamily: "Samarkan",
