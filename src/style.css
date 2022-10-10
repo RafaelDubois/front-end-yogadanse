@@ -14,14 +14,6 @@
  font-family: "Samarkan"; 
 }
 
-html, 
-body {
-    width: 100% !important;
-    height: 100% !important;
-    margin: 0px !important;
-  padding: 0px !important;
-    overflow-x: hidden; 
-}
 
 html {
   scroll-behavior: smooth;
