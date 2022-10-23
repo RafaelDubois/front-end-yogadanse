@@ -46,8 +46,8 @@ function Navbar () {
             <Box
               component="img"
               sx={{
-                width: "61px",
-                height: "74px",
+                width: "25%",
+                height: "30%",
               }}
               alt="Your logo."
               src={pngShiva}
@@ -63,7 +63,7 @@ function Navbar () {
                 fontFamily: "Samarkan",
                 fontStyle: "black",
                 fontWeight: 650,
-                fontSize: "1em",
+                fontSize: "calc(5px + 1.1vw)",
                 letterSpacing: "0.125rem",
                 color: "black",
                 textDecoration: "none",
@@ -87,9 +87,8 @@ function Navbar () {
           <Box
             component="img"
             sx={{
-              width: "6%",
-              height: "8%",
-              ml: "20px",
+              width: "5%",
+              ml: "5%",
             }}
             alt="Your logo."
             src={silhouette}

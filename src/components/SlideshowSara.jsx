@@ -1,17 +1,19 @@
-import img1 from "../assets/imghome1.png";
-import img2 from "../assets/imghome2.png";
-import img3 from "../assets/imghome3.png";
+import yogadanse1 from "../assets/yogadanse1.jpeg"
+import yogadanse2 from "../assets/yogadanse2.jpeg"
+import yogadanse3 from "../assets/yogadanse3.jpeg"
+import yogadanse4 from "../assets/yogadanse4.jpeg"
 import "../style.css"
-import "../styleslide.css";
+import "./styleslide.css";
 
 function SlideShowSara() {
   return (
     <>
       <div class="slide-sara">
         <div class="wrapper-sara">
-          <img src={img1} alt="img" />
-          <img src={img2} alt="img" />
-          <img src={img3} alt="img" />
+          <img src={yogadanse1} alt="img" />
+          <img src={yogadanse2} alt="img" />
+          <img src={yogadanse3} alt="img" />
+          <img src={yogadanse4} alt="img" />
         </div>
       </div>
     </>

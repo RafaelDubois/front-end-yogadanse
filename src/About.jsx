@@ -1,25 +1,58 @@
 import Navbar from "./components/Navbar";
 import Typography from "@suid/material/Typography";
-import SlideShow from "./components/SlideShow";
-import "./style.css";
 import Footer from "./components/Footer";
+import SlideShowSara from "./components/SlideshowSara";
 
 function About() {
   return (
     <>
+    <Navbar />
       <div class="about-bg">
         <br />
         <div class="row">
-          <div
+        <Typography
+            style="padding:5px;letter-spacing:2px;font-weight:600; text-align:left;font-family:'Mythical Prince';opacity:0.85;width:60%;margin-right:40px;background-color:#FDFBF5"
+            class="linear-gradient"
+          >
+            <p class="titre" style="opacity:1;text-decoration:underline;">
+              Contenu des cours pour adultes :​
+              <br />
+              <br />
+            </p>
+
+            <p class="sous-titre" style="opacity:1;line-height:2.5">
+              • Relaxation basée sur des exercices d’assouplissement, de
+              respiration, de méditation avec la salutation accompagnée de
+              mantras <br />• Echauffement, placements<br /> • Apprentissage de pas de
+              base (adavus), de postures (karanas), de gestes de la main (hasta-
+              mudras)<br /> • Introduction au travail des yeux et expression du visage
+              (abhinaya)<br /> • Enseignement de la partie théorique de la danse
+              (termes sanskrits)
+            </p>
+            <br />
+            <p style="margin-top:10px;font-size:19px;opacity:1;text-decoration:underline ">
+              Jours et horaires :
+            </p>
+            <p class="sous-titre" style="opacity:1;line-height:2;margin-top:10px;">
+              Le lundi : - de 17h à 18hh15 (niveau intermédiaire) <br/> Le mardi : -
+              de 17h à 18h15 (niveau débutant)
+            </p>
+          </Typography>
+          <SlideShowSara />
+        </div>
+
+        <br />
+        <div class="second-row">
+        <div
             style="padding:5px;letter-spacing:2px;font-weight:600;font-family:'Mythical Prince';opacity:0.85;width:65%;margin-right:40px"
             class="center-text"
           >
-            <p style="font-size:19px;opacity:1;text-decoration:underline;">
+            <p class="titre" style="opacity:1;text-decoration:underline;">
               Contenu des cours pour enfants et adolescents :​
               <br />
               <br />
             </p>
-            <p style="font-size:17px;opacity:1;line-height:2">
+            <p class="sous-titre" style="opacity:1;line-height:2">
               • La salutation accompagnée du chant (Dhyana Slokam)
               <br />
               • Exercices d&#39;échauffement, de respiration et
@@ -43,46 +76,13 @@ function About() {
             <p style="margin-top:10px;font-size:18px;opacity:1;text-decoration:underline;">
               Jour et horaires :
             </p>
-            <p style="font-size:17px;opacity:1;line-height:2;margin-top:10px;">
+            <p class="sous-titre" style="opacity:1;line-height:2;margin-top:10px;">
               - de 10h à 11h15 (niveau débutant enfants) <br/>- de 14h à 15h15
               (niveau débutant/intermédiaire adolescents)
             </p>
           </div>
-          <SlideShow />
-        </div>
-
-        <br />
-        <Navbar />
-        <div class="second-row">
-          <Typography
-            style="padding:5px;letter-spacing:2px;font-weight:600; text-align:left;font-family:'Mythical Prince';opacity:0.85;width:60%;margin-right:40px;background-color:#FDFBF5"
-            class="linear-gradient"
-          >
-            <p style="font-size:19px;opacity:1;text-decoration:underline;">
-              Contenu des cours pour adultes :​
-              <br />
-              <br />
-            </p>
-
-            <p style="font-size:17px;opacity:1;line-height:2.5">
-              • Relaxation basée sur des exercices d’assouplissement, de
-              respiration, de méditation avec la salutation accompagnée de
-              mantras <br />• Echauffement, placements<br /> • Apprentissage de pas de
-              base (adavus), de postures (karanas), de gestes de la main (hasta-
-              mudras)<br /> • Introduction au travail des yeux et expression du visage
-              (abhinaya)<br /> • Enseignement de la partie théorique de la danse
-              (termes sanskrits)
-            </p>
-            <br />
-            <p style="margin-top:10px;font-size:19px;opacity:1;text-decoration:underline ">
-              Jours et horaires :
-            </p>
-            <p style="font-size:17px;opacity:1;line-height:2;margin-top:10px;">
-              Le lundi : - de 17h à 18hh15 (niveau intermédiaire) <br/> Le mardi : -
-              de 17h à 18h15 (niveau débutant)
-            </p>
-          </Typography>
-          {/* <SlideShow /> */}
+         
+          
         </div>
         <div class="third-row">
 <Typography
