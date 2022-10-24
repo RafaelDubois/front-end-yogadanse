@@ -17,12 +17,12 @@
  } */
  .home-text{
   text-align:center;
-            padding:10;
+            padding:12;
             font-family: "Mythical Prince";
             font-weight: 550;
             letter-spacing: 0.125rem;
             color: #F5E0D2;
-            font-size: calc(32px + 2.8vmin);
+            font-size: 9vmin;
  }
 
 
@@ -44,6 +44,9 @@ html {
     margin-bottom: auto;
     
 }
+@font-face{font-family:mythical prince;font-style:normal;font-weight:400;src:local('Mythical Prince'),url(../fonts/MythicalPrinceRegular-WyRRV.woff) format('woff')}
+
+@font-face{font-family:samarkan;font-style:normal;font-weight:400;src:local('Samarkan'),url(../fonts/SAMARN__.woff) format('woff')}
 
 
 @keyframes change-image { 
@@ -462,6 +465,7 @@ section {
     .footer-distributed .footer-left p.footer-links {
       line-height: 1.8;
     }
+
   }
 
 .about-bg {
@@ -469,7 +473,7 @@ section {
   padding: 0;
    background-image: url("./assets/background1.jpg");
       /* Set a specific height */
-    min-height:240vh; 
+    min-height:250vh; 
     height: 100%;
       /* Create the parallax scrolling effect */
     position: relative;
@@ -478,7 +482,7 @@ section {
     
 }
 .row{
-  padding: 50px;
+  padding: 40px;
   display: flex;
     justify-content: center;  flex-direction: row;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
@@ -486,12 +490,10 @@ section {
   background-color:#FDFBF5;
   height: 35%;
   width: 85%;
-  margin-left: auto;
   align-items: center;
-  margin-right: auto;
   margin-top: 125px;
-  margin-bottom:auto;
-  padding-top: 20px ;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .second-row
@@ -575,10 +577,10 @@ section {
   justify-content: center;background-color:#245988;font-family:"Mythical Prince"
 }
 .titre{
-  font-size: clamp(1.2rem,19px,1.5rem);
+  font-size: 3.2vmin;
 }
 .sous-titre{
-  font-size: clamp(1rem,17px,1.4rem);
+  font-size: 2.6vmin;
 }
 .silhouette{
   width: "6%";
@@ -589,27 +591,41 @@ section {
 
 @media only screen and (max-width: 900px) {
   .row{
-    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
     display: flex;
       justify-content: center;  flex-direction: column;
+      text-align: center;
       width: 95%;
     
   }
-  .silhouette{
+  .center-text{
+    margin:0;
+  }
+  .img-display{
     display: none;
   }
   .container-slide{
     display: none;
   }
   .center-text{
+    margin-top: 5px;
     text-align: center;
   }
   .second-row{
-    padding: 20px;
+    padding: 0px;
     display: flex;
       justify-content: center;  flex-direction: column;
       width: 95%;
     
+  }
+  .third-row{
+    padding: 10px;
+    display: flex;
+      justify-content: center;  flex-direction: column;
+      width: 90%;
+      
   }
   .text-respons{
     display: flex;

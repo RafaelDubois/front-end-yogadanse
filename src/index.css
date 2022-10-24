@@ -12,12 +12,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-::-webkit-scrollbar-thumb {
-  background: #335D88
-}
-::-webkit-scrollbar-track {
-  background: #335D88
-}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

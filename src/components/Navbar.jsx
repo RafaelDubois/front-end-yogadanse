@@ -27,6 +27,7 @@ function Navbar () {
         position="fixed"
         style={{
           background: "#FBA28F",
+          width: "100%",
           opacity: 0.68,
           display: "flex",
           flexDirection: "row",        }}
@@ -39,7 +40,7 @@ function Navbar () {
               width: "20%",
               textAlign: "center",
               mb: 0.8,
-              ml: "3%",
+              ml: "5%",
               mt: 0.5,
             }}
           >
@@ -73,7 +74,7 @@ function Navbar () {
               Sarasavaty's <br/> Yoga Dance
             </Typography>
           </Box>
-          <Box style="display:flex; flex-direction:row; width:60%">
+          <Box style="display:flex; flex-direction:row; width:90%">
             <Link href="/" name="top" onClick={goToTop()} class={styles.link}>
               Accueil
             </Link>
@@ -84,15 +85,17 @@ function Navbar () {
               Contact
             </Link>
           </Box>
+          <div class="img-display">
           <Box
             component="img"
             sx={{
-              width: "5%",
-              ml: "5%",
+              width: "30%",
+              marginLeft: "10%",
             }}
             alt="Your logo."
             src={silhouette}
           />
+          </div>
         </Toolbar>
       </AppBar>
     )

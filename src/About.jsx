@@ -11,9 +11,10 @@ function About() {
         <br />
         <div class="row">
         <Typography
-            style="padding:5px;letter-spacing:2px;font-weight:600; text-align:left;font-family:'Mythical Prince';opacity:0.85;width:60%;margin-right:40px;background-color:#FDFBF5"
+            style="padding:5px;letter-spacing:2px;font-weight:600; text-align:left;font-family:'Mythical Prince';opacity:0.85;width:60%;background-color:#FDFBF5"
             class="linear-gradient"
           >
+            <div class="center-text">
             <p class="titre" style="opacity:1;text-decoration:underline;">
               Contenu des cours pour adultes :​
               <br />
@@ -30,13 +31,14 @@ function About() {
               (termes sanskrits)
             </p>
             <br />
-            <p style="margin-top:10px;font-size:19px;opacity:1;text-decoration:underline ">
+            <p style="margin-top:10px;font-size:3vmin;opacity:1;text-decoration:underline ">
               Jours et horaires :
             </p>
             <p class="sous-titre" style="opacity:1;line-height:2;margin-top:10px;">
               Le lundi : - de 17h à 18hh15 (niveau intermédiaire) <br/> Le mardi : -
               de 17h à 18h15 (niveau débutant)
             </p>
+            </div>
           </Typography>
           <SlideShowSara />
         </div>
@@ -44,7 +46,7 @@ function About() {
         <br />
         <div class="second-row">
         <div
-            style="padding:5px;letter-spacing:2px;font-weight:600;font-family:'Mythical Prince';opacity:0.85;width:65%;margin-right:40px"
+            style="padding:5px;letter-spacing:2px;font-weight:600;font-family:'Mythical Prince';opacity:0.85;width:65%;"
             class="center-text"
           >
             <p class="titre" style="opacity:1;text-decoration:underline;">
@@ -73,7 +75,7 @@ function About() {
               <br />
             </p>
             <br />
-            <p style="margin-top:10px;font-size:18px;opacity:1;text-decoration:underline;">
+            <p style="margin-top:10px;font-size:3vmin;;opacity:1;text-decoration:underline;">
               Jour et horaires :
             </p>
             <p class="sous-titre" style="opacity:1;line-height:2;margin-top:10px;">
@@ -89,25 +91,25 @@ function About() {
             style="letter-spacing:2px;font-weight:600; text-align:center;font-family:'Mythical Prince';background-color:#FDFBF5;"
             class="linear-gradient"
           >
-            <p style="font-size:16px;opacity:1;text-decoration:underline;">
+            <p style="font-size:2.9vmin;opacity:1;text-decoration:underline;">
             Adresse :
               <br />
               <br />
             </p>
 
-            <p style="font-size:16px;opacity:1;line-height:2.5">
+            <p style="font-size:2.6vmin;opacity:1;line-height:2.5">
             9 chemin des bois de lait, Colimaçons, St Leu
             </p>
             <br />
-            <p style="margin-top:10px;font-size:15px;opacity:1;text-decoration:underline ">
+            <p style="margin-top:10px;font-size:2.9vmin;opacity:1;text-decoration:underline ">
             Durée d&#39;un cours : 1h15
             </p>
-            <p style="font-size:16px;opacity:1;line-height:2;margin-top:10px;">
+            <p style="font-size:2.6vmin;opacity:1;line-height:2;margin-top:10px;">
             Participation :
 - 50€/4 cours par mois
 - 15€/séance
             </p>
-            <p style="font-size:16px;opacity:1;line-height:2;margin-top:10px;">
+            <p style="font-size:2.6vmin;opacity:1;line-height:2;margin-top:10px;">
             Inscriptions et renseignements
 par retour d&#39;email à {' '}
 <a href="/Contact">sn.ba@hotmail.fr</a>

@@ -67,7 +67,7 @@ function Home() {
             fontWeight: 550,
             letterSpacing: "0.125rem",
             color: "#F5E0D2",
-            fontSize: "calc(22px + 2vmin)",
+            fontSize: "6vmin",
           }}
         >
           “Là où va la main va l’œil ; là où va l’œil va l’esprit ; là où va
@@ -102,7 +102,7 @@ function Home() {
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
-        <p style="width:50%;margin-top:60px;padding-top:1px;font-size:25px;opacity:1;line-height:1.5;text-align:left;font-style:italic;font-weight:650;">
+        <p style="width:50%;margin-top:50px;padding-top:1px;font-size:5vmin;opacity:1;line-height:1.5;text-align:left;font-style:italic;font-weight:650;">
           Jours et horaires : Le lundi de 17h à 18h15 <br />
           Adresse : 9 chemin des bois de lait, Colimaçons, St Leu <br />
           Durée d'un cours : 1h15
