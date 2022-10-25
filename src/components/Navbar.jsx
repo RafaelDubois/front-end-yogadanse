@@ -37,10 +37,11 @@ function Navbar () {
             sx={{
               verticalAlign: "top",
               display: "inline-block",
-              width: "20%",
+              width: "26%",
               textAlign: "center",
               mb: 0.8,
-              ml: "5%",
+              ml: "4vmin",
+              mr:"3vmin",
               mt: 0.5,
             }}
           >

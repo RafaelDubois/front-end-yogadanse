@@ -31,7 +31,7 @@ function About() {
               (termes sanskrits)
             </p>
             <br />
-            <p style="margin-top:10px;font-size:3vmin;opacity:1;text-decoration:underline ">
+            <p style="margin-top:10px;font-size:3.2vmin;opacity:1;text-decoration:underline ">
               Jours et horaires :
             </p>
             <p class="sous-titre" style="opacity:1;line-height:2;margin-top:10px;">
@@ -75,7 +75,7 @@ function About() {
               <br />
             </p>
             <br />
-            <p style="margin-top:10px;font-size:3vmin;;opacity:1;text-decoration:underline;">
+            <p style="margin-top:10px;font-size:3.2vmin;;opacity:1;text-decoration:underline;">
               Jour et horaires :
             </p>
             <p class="sous-titre" style="opacity:1;line-height:2;margin-top:10px;">
@@ -91,25 +91,25 @@ function About() {
             style="letter-spacing:2px;font-weight:600; text-align:center;font-family:'Mythical Prince';background-color:#FDFBF5;"
             class="linear-gradient"
           >
-            <p style="font-size:2.9vmin;opacity:1;text-decoration:underline;">
+            <p style="font-size:3.2vmin;opacity:1;text-decoration:underline;">
             Adresse :
               <br />
               <br />
             </p>
 
-            <p style="font-size:2.6vmin;opacity:1;line-height:2.5">
+            <p style="font-size:2.9vmin;opacity:1;line-height:2.5">
             9 chemin des bois de lait, Colimaçons, St Leu
             </p>
             <br />
             <p style="margin-top:10px;font-size:2.9vmin;opacity:1;text-decoration:underline ">
             Durée d&#39;un cours : 1h15
             </p>
-            <p style="font-size:2.6vmin;opacity:1;line-height:2;margin-top:10px;">
+            <p style="font-size:2.9vmin;opacity:1;line-height:2;margin-top:10px;">
             Participation :
 - 50€/4 cours par mois
 - 15€/séance
             </p>
-            <p style="font-size:2.6vmin;opacity:1;line-height:2;margin-top:10px;">
+            <p style="font-size:2.9vmin;opacity:1;line-height:2;margin-top:10px;">
             Inscriptions et renseignements
 par retour d&#39;email à {' '}
 <a href="/Contact">sn.ba@hotmail.fr</a>

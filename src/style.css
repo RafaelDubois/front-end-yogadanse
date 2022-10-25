@@ -580,7 +580,7 @@ section {
   font-size: 3.2vmin;
 }
 .sous-titre{
-  font-size: 2.6vmin;
+  font-size: 2.9vmin;
 }
 .silhouette{
   width: "6%";
@@ -633,6 +633,8 @@ section {
   }
   .maps-respons{
     flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
   }
   .maps-width{
     width: 70vw;

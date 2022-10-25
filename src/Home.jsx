@@ -102,7 +102,7 @@ function Home() {
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
-        <p style="width:50%;margin-top:50px;padding-top:1px;font-size:5vmin;opacity:1;line-height:1.5;text-align:left;font-style:italic;font-weight:650;">
+        <p style="width:50%;margin-top:40px;padding-top:1px;font-size:5vmin;opacity:1;line-height:1.5;text-align:left;font-style:italic;font-weight:650;">
           Jours et horaires : Le lundi de 17h à 18h15 <br />
           Adresse : 9 chemin des bois de lait, Colimaçons, St Leu <br />
           Durée d'un cours : 1h15
