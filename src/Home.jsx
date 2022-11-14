@@ -87,7 +87,7 @@ function Home() {
         ></iframe>
         </div>
         <Typography variant="subtitle1" style="color:#F7D1C4;margin-top:30px;margin-bottom:30px">
-          Vidéo démonstrative du Dhyana Slokam (yoga de la danse) par Sarasavati Badamia
+          Vidéo démonstrative du Dhyana Slokam par Sarasavati Badamia
         </Typography>
       </div>
       <div
