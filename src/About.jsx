@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import Typography from "@suid/material/Typography";
 import Footer from "./components/Footer";
 import SlideShowSara from "./components/SlideshowSara";
+import yogadanseyoung from "./assets/yogadanseyoung.jpeg"
 
 function About() {
   return (
@@ -84,7 +85,11 @@ function About() {
             </p>
           </div>
          
-          
+          <div class="container-home">
+        <div class="wrapper-home">
+          <img src={yogadanseyoung} alt="img" />
+        </div>
+        </div>
         </div>
         <div class="third-row">
 <Typography

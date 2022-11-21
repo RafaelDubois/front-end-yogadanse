@@ -55,7 +55,7 @@ function Home() {
         <div class="wrapper-home">
           <img src={yogadansehome} alt="img" />
         </div>
-    </div>
+        </div>
         </div>
       </div>
       <div class={styles.parralax}>
